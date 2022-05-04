@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+[class*="col-"]{
+    float: left;
+}
+.container{
+    width: 800px;
+    margin: auto;
+}
+.body{
+    background-color:antiquewhite
+}
+h1{
+    color: white;
+    text-align: center;
+}
+.menu{
+    height: 310px;
+    background-color: red;
+}
+.menu h1{
+    line-height: 310px;
+}
+.header{
+    background-color: #0F1629;
+    height: 50px;
+}
+.header h1{
+    line-height: 50px;
+}
+.hero{
+    background-color: #4D85C6;
+}
+.hero h1,.main h1{
+    line-height: 150px;
+}
+.my-div{
+    height: 150px;
+}
+.my-div2{
+    height: 80px;
+}
+.banner h1, .extra h1, .image h1{
+    line-height: 80px;
+}
+.main{
+    background-color: #24344B;
+}
+.banner{
+    background-color: #FFD269;
+}
+.extra{
+    background-color: #4EBC97;
+}
+.image{
+    background-color: #C2E4E7;
+}
